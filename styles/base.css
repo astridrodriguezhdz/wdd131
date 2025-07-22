@@ -1,1 +1,22 @@
-header p{height: 60px; padding: 15px; color: #E3DFFF; border: 0px;margin: 0px;}
+:root {
+    --heading-font: "Libre Franklin", sans-serif;
+    --body-font: "Crimson Text", serif;
+  }
+.title{
+    height: 30px; 
+    padding:15px; 
+    background-color: #E3DFFF; 
+    border: 0px;
+    margin: 0px; 
+}
+#course-title {
+    font-size: 2em;         /* tamaño similar a h1 */
+    font-weight: bold;      /* peso de texto */
+    margin: 0;              /* sin espacio extra */
+    display: block;         /* para que se comporte como bloque, como un h1 */
+  }
+nav {    
+    display: flex;
+    flex-direction: row;
+    text-align: space-evenly;
+    align-items: center;}
