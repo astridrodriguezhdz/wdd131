@@ -8,6 +8,7 @@
     background-color: #E3DFFF; 
     border: 0px;
     margin: 0px; 
+    text-align: center;
 }
 #course-title {
     font-size: 2em;         /* tamaño similar a h1 */
@@ -18,5 +19,8 @@
 nav {    
     display: flex;
     flex-direction: row;
-    text-align: space-evenly;
-    align-items: center;}
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    background-color: #3D3A4B;
+}
