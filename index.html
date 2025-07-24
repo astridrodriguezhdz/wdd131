@@ -6,7 +6,7 @@
     <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Astrid Inés Rodíguez Hernández - Self description">
     <meta name="author" content="Astrid Rodríguez">
     <link rel="stylesheet" href="styles/base.css">
-    <script src="scripts/getdates.js"></script>
+    <script src="scripts/getdates.js" defer></script>
     <title>WDD 131 - Dynamic Web Fundamentals - Astrid Rodríguez</title>
     <!--Insert the desired fonts on this section-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -32,48 +32,53 @@
         <h1>Astrid Rodríguez</h1>
         <section class="card">
             <h2>About me</h2>
-            <p>Hi, I'm Astrid Rodríguez. I'm from Mexico and I've lived in Mexico
-                City all my life. It's funny because I have access to so many
-                different attractions. If you decide to visit Mexico City, my
-                recommendation is: Don't forget to eat a "Torta de tamal", which is so
-                delicious. I love to dance, sing, and play the piano, and I'm so
-                excited to start this Software Development path. I have previous
-                elemental programming knowledge, and I have enjoyed every moment in
-                front of my code screen. I hope each one of us can increase our
-                programming abilities by doing our best during this course. Nice to
-                meet you and, have a good day!</p>
-
-            <img src="images/me.webp" alt="Hi,Im Astrid Rodríguez" class="float">
-
-            <h2>Mexico City, Mexico</h2>
-            <p>  Mexico City is a versatile place. If you're looking for fun and
-                extensive kinds of activities, Mexico City is the best option. The
-                legend says that our Mexicans' ancestors received a divine instruction
-                to settle where they find an eagle devouring a snake. They found it
-                and builded their civilization, even though it was over a lake. That's
-                why Mexico City was constructed in this place. If you visit my state,
-                you're going to find legends, history, art, recreational activities
-                and even an archaeological zone in the middle of the city. If you
-                come, don't forget to eat our famous tacos and elotes, or esquites.</p>
-
-            <img src="images/mexico_flag.webp" alt="Image of the Mexican flag" class="float">
-
+            <section class="about_me_p">
+                <p>Hi, I'm Astrid Rodríguez. I'm from Mexico and I've lived in Mexico
+                    City all my life. It's funny because I have access to so many
+                    different attractions. If you decide to visit Mexico City, my
+                    recommendation is: Don't forget to eat a "Torta de tamal", which is so
+                    delicious. I love to dance, sing, and play the piano, and I'm so
+                    excited to start this Software Development path. I have previous
+                    elemental programming knowledge, and I have enjoyed every moment in
+                    front of my code screen. I hope each one of us can increase our
+                    programming abilities by doing our best during this course. Nice to
+                    meet you and, have a good day!</p>
+                <img src="images/me.webp" alt="Hi,Im Astrid Rodríguez" class="float">
+           
+            </section>
+            <section class="mexico">
+                <h2>Mexico City, Mexico</h2>
+                <img src="images/mexico_flag.webp" alt="Image of the Mexican flag" class="float">
+                <p>  Mexico City is a versatile place. If you're looking for fun and
+                    extensive kinds of activities, Mexico City is the best option. The
+                    legend says that our Mexicans' ancestors received a divine instruction
+                    to settle where they find an eagle devouring a snake. They found it
+                    and builded their civilization, even though it was over a lake. That's
+                    why Mexico City was constructed in this place. If you visit my state,
+                    you're going to find legends, history, art, recreational activities
+                    and even an archaeological zone in the middle of the city. If you
+                    come, don't forget to eat our famous tacos and elotes, or esquites.</p>
+    
+            </section>
         </section>
 
         <section class="card">
-            <h2>Web Astrid Resources</h2>
-            <nav class="about_me">
-                <a href="https://www.facebook.com/astrid.rodriguez.9889">Facebook</a>
-                <a href="https://www.upwork.com/freelancers/~011f5d6e6c91572224?viewMode=1">UpWork</a>
-                <a href="https://coolors.co/e3dfff-d3c0cd-b19994-937666-3d3a4b">Color Template</a>
-                <a href="https://astridrodriguezhdz.github.io/wdd130/wwr/about.html">Rafting Site</a>
+            <section class="web">
+                <h2>Web Astrid Resources</h2>
+                <nav class="about_me">
+                    <li><a href="https://www.facebook.com/astrid.rodriguez.9889">Facebook</a></li> <!--<li></li> es para tener viñetas de punto-->
+                    <li><a href="https://www.upwork.com/freelancers/~011f5d6e6c91572224?viewMode=1">UpWork</a></li>
+                    <li><a href="https://coolors.co/e3dfff-d3c0cd-b19994-937666-3d3a4b">Color Template</a></li>
+                    <li><a href="https://astridrodriguezhdz.github.io/wdd130/wwr/about.html">Rafting Site</a></li>
             </nav>
+            </section>
+            
 
         </section>
     </main>
     <footer>
-        <p>&copy;2025 🎓 Astrid Rodríguez 🎓 CDMX, Mexico <span id="currentyear"></span></p>
-        <p id="lastModified"></p>
+        <p>&copy;<span id="current_year"></span> 🎓 Astrid Rodríguez 🎓 CDMX, Mexico </p>
+        <p id="last_modified"></p>
         <script>
           document.getElementById("lastModified").textContent = "Última modificación: " + document.lastModified;
         </script>
