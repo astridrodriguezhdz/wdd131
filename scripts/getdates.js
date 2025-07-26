@@ -13,3 +13,4 @@ let last_modified = new Date(document.lastModified);
 document.querySelector(
   "#last_modified"
 ).textContent = `Última modificación: ${last_modified.toLocaleString("es-MX")}`;
+
