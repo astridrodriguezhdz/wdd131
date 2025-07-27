@@ -1,0 +1,13 @@
+body{font-family: roboto}
+header, main, footer{
+    max-width: 640px;
+    margin: 1rem auto; /*It center the element in the page */
+    border: 1rem solid #B19994;
+    padding: 1rem; /*1rem is equal to 16px */
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem; /* Is the space between two areas in a grid or flex elements 
+                  (the purple area that divides elements when I use the inspect web tool)*/
+}
