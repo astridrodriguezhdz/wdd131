@@ -11,3 +11,7 @@ main{
     gap: 1rem; /* Is the space between two areas in a grid or flex elements 
                   (the purple area that divides elements when I use the inspect web tool)*/
 }
+section{
+    padding: 1rem;
+    background-color: #D4C7C4;
+}
