@@ -1,0 +1,9 @@
+header p{height: 60px; padding: 15px; color: white; border: 0px;margin: 0px;}
+.header{background-color: rgb(52, 52, 52); }
+nav{display: flex; flex-direction: row; align-items: center; ; background-color: black;padding: 10px;justify-content: space-around}
+nav a{text-decoration: none; color: azure;}
+.body{display: grid; grid-template-columns: 2fr 1fr;}
+.body p{padding-left: 15px;}
+.main{background-color: rgb(201, 199, 199); padding-bottom: 240px;}
+footer p{text-align: center; color: whitesmoke; border: 0px;margin: 0px;}
+footer{background-color: rgb(51, 51, 51); padding: 10px;height: 100px;}
