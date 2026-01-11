@@ -27,7 +27,7 @@ nav {
     padding: 10px;
     background-color: #3D3A4B;
 }
-nav a:hover{
+nav a{
     color: #E3DFFF;;
 }
 main h1{
@@ -46,7 +46,7 @@ main{
     margin-right: 75px;
 }
 
-.card{
+.card:hover{
     margin: 20px;
     background-color:#E6DBE2;
     border-radius: 15px;
