@@ -87,7 +87,7 @@ footer p{
     margin-left: 40px;
     margin-top: 100px;
 }
-.about_me a{text-align: left; color: #3D3A4B; margin-top: 10px;cursor: pointer;}
+.about_me a:hover{text-align: left; color: #3D3A4B; margin-top: 10px;cursor: pointer;}
 
 .about_me_p{
     display: flex; 
