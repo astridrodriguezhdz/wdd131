@@ -27,7 +27,7 @@ nav {
     padding: 10px;
     background-color: #3D3A4B;
 }
-nav a{
+nav a:hover{
     color: #E3DFFF;;
 }
 main h1{
