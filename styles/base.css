@@ -46,13 +46,17 @@ main{
     margin-right: 75px;
 }
 
-.card:hover{
+.card{
     margin: 20px;
     background-color:#E6DBE2;
     border-radius: 15px;
     /*display: grid;
     grid-template-columns: 1fr 1fr*/
     }
+
+.about_me {
+  /* estilos aquí */
+}
 
 h2{
     background-color:#E3DFFF; 
