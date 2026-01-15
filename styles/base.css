@@ -126,7 +126,11 @@ footer p{
     margin-left: 35px;
     margin-bottom: 10px;
 }
-.mexico p{grid-column: 2; padding-left: 10px; text-align: left;  text-align: justify}
+.mexico p{
+    grid-column: 2; 
+    padding-left: 10px;   
+    text-align: justify;
+}
 .mexico h2{
     background-color: #E6DBE2; 
     border-bottom: 1.5px solid black; 
