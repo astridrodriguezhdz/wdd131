@@ -1,5 +1,5 @@
 :root {
-    --heading-font: "Libre Franklin", sans-serif;
+    /*--heading-font: "Libre Franklin", sans-serif;*/
     --body-font: "Crimson Text", serif;
   }
 
@@ -11,6 +11,11 @@
     margin: 0px; 
     text-align: center;
 }
+
+header{
+    font: "Libre Franklin", sans-serif;
+}
+
 #course-title{display: block;}  /* # es para definir id y . es para definir clases. 
                                    display: block will make that section to cover all the available space*/
 #course-title {
