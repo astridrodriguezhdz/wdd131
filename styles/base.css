@@ -23,7 +23,6 @@ header{
     font-size: 2em;         /* tamaño similar a h1 */
     font-weight: bold;      /* peso de texto */
     margin: 1px;              /* sin espacio extra */
-           /* To add padding in top and button*/
     display: block;         /* para que se comporte como bloque, como un h1 */
   }
 nav {    
