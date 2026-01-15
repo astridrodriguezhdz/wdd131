@@ -16,9 +16,10 @@ header{
     font: "Libre Franklin", sans-serif;
 }
 
-#course-title{display: block;}  /* # es para definir id y . es para definir clases. 
-                                   display: block will make that section to cover all the available space*/
+ 
 #course-title {
+    display: block;        /* # es para definir id y . es para definir clases. 
+                           display: block will make that section to cover all the available space*/
     font-size: 2em;         /* tamaño similar a h1 */
     font-weight: bold;      /* peso de texto */
     margin: 30;              /* sin espacio extra */
